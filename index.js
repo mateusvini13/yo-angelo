@@ -1,5 +1,19 @@
 require('dotenv').config()
 
+const express = require ('express')
+
+const app = express()
+const port = process.env.PORT || 3000
+
+//Home page
+app.get('/', (req, res) => {
+  res.send('<a href="https://www.youtube.com/watch?v=M_7chfjC8kY">Yo, Angelo!</a>')
+})
+
+app.listen(port, () => {
+  console.log(`Yo, Angelo!`)
+})
+
 const Snoowrap = require('snoowrap');
 const { CommentStream } = require('snoostorm');
 
