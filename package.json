@@ -1,0 +1,13 @@
+{
+  "name": "yo-angelo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mateusvini13/yo-angelo",
+  "author": "Mateus Vinícius",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "snoostorm": "^1.1.2",
+    "snoowrap": "^1.19.0"
+  }
+}
