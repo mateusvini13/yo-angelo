@@ -9,5 +9,8 @@
     "dotenv": "^8.0.0",
     "snoostorm": "^1.1.2",
     "snoowrap": "^1.19.0"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
